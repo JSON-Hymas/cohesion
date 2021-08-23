@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5DTf10TcZqDCBcwcnJVnKwjLT4+eNFU/6JmWpq97M2NqVRFwaaGMDmJQNgDvrzJyLp6VPtaEAhIt6e0EqBb25Q==",
+  "dgSpecHash": "Nnv3OMYg57pfTfA0J/ER4V6B5Vlh2jT+uD1Gn97PQHPvNoNhakkdm9GDvpoDe4Q7/DqQOPmLh6Z47HVROx4TMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion.csproj",
+  "projectFilePath": "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\cohesion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayso\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jayso\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\cohesion.csproj": {}
+    "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion\\cohesion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\cohesion.csproj": {
+    "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion\\cohesion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\cohesion.csproj",
+        "projectUniqueName": "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion\\cohesion.csproj",
         "projectName": "cohesion",
-        "projectPath": "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\cohesion.csproj",
+        "projectPath": "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion\\cohesion.csproj",
         "packagesPath": "C:\\Users\\jayso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jayso\\source\\repos\\Cohesion\\cohesion\\obj\\",
+        "outputPath": "C:\\Users\\jayso\\source\\repos\\cohesion\\cohesion\\cohesion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jayso\\AppData\\Roaming\\NuGet\\NuGet.Config",
