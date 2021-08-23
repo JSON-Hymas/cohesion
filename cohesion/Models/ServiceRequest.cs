@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cohesion.Models
 {
-    public class MaintenanceServiceModel
+    public class ServiceRequest
     {
         public Guid Id { get; set; }
         public string BuildingCode { get; set; }
