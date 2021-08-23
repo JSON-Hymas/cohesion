@@ -25,7 +25,7 @@ namespace cohesion.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ServiceRequest>>> GetServiceRequests()
         {
-            return await _context.ServiceRequests.ToListAsync();
+            return await _context.ServiceRequests.AnyAsync() ? await _context.ServiceRequests.ToListAsync() : NoContent();
         }
 
         // GET: api/ServiceRequests/5
@@ -78,6 +78,11 @@ namespace cohesion.Controllers
         [HttpPost]
         public async Task<ActionResult<ServiceRequest>> PostServiceRequest(ServiceRequest serviceRequest)
         {
+            if (ServiceRequestExists(serviceRequest.Id))
+            {
+                return BadRequest();
+            }
+
             _context.ServiceRequests.Add(serviceRequest);
             await _context.SaveChangesAsync();
 
@@ -97,6 +102,7 @@ namespace cohesion.Controllers
             _context.ServiceRequests.Remove(serviceRequest);
             await _context.SaveChangesAsync();
 
+            //Can return the item here to give back a 201
             return NoContent();
         }
 
